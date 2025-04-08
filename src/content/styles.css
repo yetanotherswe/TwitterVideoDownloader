@@ -1,13 +1,26 @@
-.download-btn {
-    background-color: #1DA1F2; /* Twitter blue */
+.twitter-video-download-btn {
+    background-color: #1d9bf0;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 999px;
     padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 600;
     cursor: pointer;
-    font-size: 14px;
-   }
-   
-   .download-btn:hover {
-    background-color: #1a91da;
-   }
+    margin-left: 8px;
+    transition: background-color 0.2s;
+  }
+  
+  .twitter-video-download-btn:hover {
+    background-color: #1a8cd8;
+  }
+  
+  .twitter-video-download-btn:disabled {
+    background-color: #8ecdf7;
+    cursor: not-allowed;
+  }
+  
+  .download-btn-container {
+    display: inline-flex;
+    align-items: center;
+  }
